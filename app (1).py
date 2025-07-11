@@ -12,7 +12,7 @@ import streamlit as st
 import pickle
 
 model = pickle.load(open('housingprediction.pkl','rb'))
-st.title("Customer Segmentation")
+st.title("Housing Price Prediction")
 
 car = int(st.text_input("Enter Car Parking : ","2"))
 land_size = float(st.text_input("Enter Land Size: ","10000"))
